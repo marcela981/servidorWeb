@@ -7,7 +7,7 @@ final public class SolicitudHttp implements Runnable
 {
     public SolicitudHttp  (Socket cliente)
     {
-        
+
     }
 
     @Override

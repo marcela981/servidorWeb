@@ -5,14 +5,14 @@ import java.util.*;
 
 public final class ServidorWeb
 {
-    public static void main (String argv[]) throws Excepton
+    public static void main (String argv[]) throws Exception
     {
         //Número de puerto
         int puerto = 6789;
 
         //Establece el socket de escucha
 
-        ServerSocket servidor = new ServerSocket(pueto);
+        ServerSocket servidor = new ServerSocket(puerto);
 
         // Procesando las solicitudes HTTP en un ciclo infinito.
         while (true)
